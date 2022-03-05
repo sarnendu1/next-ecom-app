@@ -11,7 +11,7 @@ function orders({ orders }) {
     return (
         <>
         <Head>
-            <title>Orders | Amazon</title>
+            <title>Orders</title>
         </Head>
         <div className="bg-gray-100 h-screen">
             <Header />
