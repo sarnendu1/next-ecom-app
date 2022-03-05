@@ -34,7 +34,7 @@ function Header({setShowCart, showCart, products}) {
         <div className="header" style={{ position: 'sticky', top: 0, zIndex: 50 }}>
             <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2">
                 <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
-                  <Link href="/"><h1 style={{fontSize:30,color:'white',marginRight:10,marginBottom:10,marginLeft:10}}><strong>Ecom</strong></h1></Link>
+                  <Link href="/"><h1 style={{fontSize:30,color:'white',marginRight:10,marginBottom:10,marginLeft:10,cursor:"pointer"}}><strong>Ecom</strong></h1></Link>
                 </div>
  {/* Hello */}
                 {/* Search */}
